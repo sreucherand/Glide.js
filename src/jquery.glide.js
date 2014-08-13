@@ -109,6 +109,14 @@ function Glide(parent, options) {
   return {
 
     /**
+     * Get total number of slides
+     * @return {Int}
+     */
+    total: function() {
+      return self.slides.length;
+    },
+
+    /**
      * Get current slide number
      * @return {Int}
      */
