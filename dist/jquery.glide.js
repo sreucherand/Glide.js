@@ -127,6 +127,14 @@ function Glide(parent, options) {
     },
 
     /**
+     * Get parent
+     * @return {Int}
+     */
+    parent: function() {
+      return self.parent;
+    },
+
+    /**
      * Get current slide number
      * @return {Int}
      */
